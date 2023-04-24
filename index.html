@@ -1,41 +1,43 @@
 <!DOCTYPE html>
 <html>
 <body>
-<div id="bai1">
-    <h2>Bài 1</h2>
-    <p>Cho dãy số tự nhiên A. Cài đặt chương trình sắp xếp dãy số A từ nhỏ đến lớn và loại bỏ số không phải là số nguyên tố.</p>
-    <label >Nhập dãy A: </label><br>
-    <input id='input1'type="text" placeholder=" VD:1,2,9,16,20">
-    <p style="color: red;" id="test1">Kết quả: </p>
-    <button type="button" onclick="submit1()">Submit</button>
+<div style="margin-left: 30px;">
+    <div id="bai1">
+        <h2>Bài 1</h2>
+        <p>Cho dãy số tự nhiên A. Cài đặt chương trình sắp xếp dãy số A từ nhỏ đến lớn và loại bỏ số không phải là số nguyên tố.</p>
+        <label >Nhập dãy A: </label><br>
+        <input id='input1'type="text" placeholder=" VD:1,2,9,16,20">
+        <p style="color: red;" id="test1">Kết quả: </p>
+        <button type="button" onclick="submit1()">Submit</button>
+    </div>
+    
+    <br>
+    
+    <div id="bai2">
+        <h2>Bài 2</h2>
+        <p>Cài đặt chương trình tìm số thứ N trong dãy Fibonacci.</p>
+        <label >Nhập số thứ N: </label><br>
+        <input id='input2'type="text" placeholder=" VD: 5">
+        <p style="color: red;" id="test2">Kết quả: </p>
+        <button type="button" onclick="submit2()">Submit</button>
+    </div>
+    
+    <br>
+    
+    <div id="bai3">
+        <h2>Bài 3</h2>
+        <p>Cho dãy số A. Có bao nhiêu cặp n số không trùng nhau, liệt kê các cặp số đó. 
+            <br>
+            Ví dụ: A = 1,2,3. Khi n = 2 thì kết quả có 3 cặp số, danh sách: 1&2, 1&3, 2&3. 
+            Khi n = 3 thì kết quả có 1 cặp số là 123.</p>
+        <label >Nhập dãy A: </label><br>
+        <input id='input3'type="text" placeholder=" VD:1,2,3"><br><br>
+        <label >Nhập số N( N nhỏ hơn độ dài dãy A): </label><br>
+        <input id='input4'type="text" placeholder=" VD: 2">
+        <p style="color: red;" id="test3">Kết quả: </p>
+        <button type="button" onclick="submit3()">Submit</button>
+    </div>
 </div>
-
-<br>
-
-<div id="bai2">
-    <h2>Bài 2</h2>
-    <p>Cài đặt chương trình tìm số thứ N trong dãy Fibonacci.</p>
-    <label >Nhập số thứ N: </label><br>
-    <input id='input2'type="text" placeholder=" VD: 5">
-    <p style="color: red;" id="test2">Kết quả: </p>
-    <button type="button" onclick="submit2()">Submit</button>
-</div>
-
-<br>
-
-<div id="bai3">
-    <h2>Bài 3</h2>
-    <p>Cho dãy số A. Có bao nhiêu cặp n số không trùng nhau, liệt kê các cặp số đó. 
-        Ví dụ: A = 1,2,3. Khi n = 2 thì kết quả có 3 cặp số, danh sách: 1&2, 1&3, 2&3. 
-        Khi n = 3 thì kết quả có 1 cặp số là 1,2,3.</p>
-    <label >Nhập dãy A: </label><br>
-    <input id='input3'type="text" placeholder=" VD:1,2,3"><br><br>
-    <label >Nhập số N( N nhỏ hơn độ dài dãy A): </label><br>
-    <input id='input4'type="text" placeholder=" VD: 2">
-    <p style="color: red;" id="test3">Kết quả: </p>
-    <button type="button" onclick="submit3()">Submit</button>
-</div>
-
 
 <script>
 //--------bài 1------------------------
